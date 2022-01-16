@@ -28,6 +28,26 @@ struct Color {
     blue: u8,
 }
 
+// RGB (128, 255, 90) 0x80FF5A
+// RGB (0, 3, 254) 0x0003FE
+// RGB (0, 0, 0) 0x000000
+
+impl Display for Color {
+    // `f` is a buffer, and this method must write the formatted string into it
+    fn fmt(&self, f: &mut Formatter) -> fmt::Result {
+        //let red_c = if self.red ;
+        //let green_c = if self.green ;
+        //let blue_c = if self.blue ;
+
+        // `write!` is like `format!`, but it will write the formatted string
+        // into a buffer (the first argument)
+        write!(f, "RGB ({}, {}, {}) {:#04X}{:02X}{:02X}",
+               self.red, self.green, self.blue, self.red, self.green, self.blue)
+    }
+}
+
+
+
 fn main() {
     for city in [
         City { name: "Dublin", lat: 53.347778, lon: -6.259722 },
@@ -43,7 +63,7 @@ fn main() {
     ].iter() {
         // Switch this to use {} once you've added an implementation
         // for fmt::Display.
-        println!("{:?}", *color);
+        println!("{}", *color);
     }
 }
 
