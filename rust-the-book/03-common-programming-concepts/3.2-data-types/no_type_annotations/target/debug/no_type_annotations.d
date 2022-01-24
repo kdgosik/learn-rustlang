@@ -1,0 +1,1 @@
+/home/kirk/Documents/projects/learn-rustlang/rust-the-book/03-common-programming-concepts/3.2-data-types/no_type_annotations/target/debug/no_type_annotations: /home/kirk/Documents/projects/learn-rustlang/rust-the-book/03-common-programming-concepts/3.2-data-types/no_type_annotations/src/main.rs

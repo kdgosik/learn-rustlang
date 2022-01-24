@@ -1,0 +1,1 @@
+/home/kirk/Documents/projects/learn-rustlang/rust-the-book/03-common-programming-concepts/3.4-comments/comments/target/debug/comments: /home/kirk/Documents/projects/learn-rustlang/rust-the-book/03-common-programming-concepts/3.4-comments/comments/src/main.rs

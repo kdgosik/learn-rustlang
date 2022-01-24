@@ -1,0 +1,1 @@
+/home/kirk/Documents/projects/learn-rustlang/rust-the-book/03-common-programming-concepts/3.1-variables-mutability/variables/target/debug/variables: /home/kirk/Documents/projects/learn-rustlang/rust-the-book/03-common-programming-concepts/3.1-variables-mutability/variables/src/main.rs
